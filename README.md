@@ -1,0 +1,3 @@
+# Segmentation Fault in C due to NULL Pointer Dereference
+
+This repository demonstrates a common C programming error: dereferencing a NULL pointer.  The `bug.c` file contains the erroneous code, which attempts to write to a memory location pointed to by a NULL pointer. This results in a segmentation fault. The `bugSolution.c` file demonstrates how to correct this error by properly checking for a NULL pointer before dereferencing it.
